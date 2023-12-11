@@ -158,6 +158,19 @@ h6 {
   background: #fabb0e;
 }
 
+.navbar .active > .icon_box_menu {
+  display: block;
+  padding-left: 5px;
+}
+
+.icon_box_menu {
+  display: none;
+}
+
+.navbar li:hover > a {
+  transform: scale(1.03);
+}
+
 .navbar .dropdown ul {
   display: block;
   position: absolute;
@@ -339,7 +352,6 @@ h6 {
   height: 95vh;
   overflow: hidden;
   position: relative;
-  /* background: linear-gradient(0deg, rgb(42, 44, 57) 0%, rgb(51, 54, 74) 100%); */
   background: linear-gradient(0deg, #2a3378 0%, #1d2033 100%);
   background-image: url(../images/hero/deposit-hero.png);
   background-size: cover;
