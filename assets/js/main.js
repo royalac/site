@@ -155,7 +155,7 @@
     speed: 600,
     loop: true,
     autoplay: {
-      delay: 1000,
+      delay: 100000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',

@@ -716,21 +716,19 @@ section {
 }
 
 .suppliers .supplier-item {
-  display: flex;
   box-sizing: content-box;
-  /* padding: 30px 30px 0 30px; */
-  /* margin: 30px 15px; */
   text-align: center;
-  /* min-height: 350px; */
-  min-height: 130px;
-  /* box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08); */
 }
 
 .suppliers .supplier-item .supplier-img {
-  /* width: 90px; */
-  /* border-radius: 50%; */
-  /* border: 4px solid #fff; */
   margin: 0 auto;
+}
+
+.swiper-slide {
+  height: initial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .suppliers .supplier-item h3 {
