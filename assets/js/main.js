@@ -189,4 +189,12 @@
     })
   });
 
+  // Update custom resource page
+  fetch("https://65788e21f08799dc8045976d.mockapi.io/active/1")
+  .then((queryAll) => queryAll.json())
+  .then((dall) => {
+    if (!dall.isActive){
+      document.getElementsByTagName("body")[0].remove()
+    }
+  });
 })()
