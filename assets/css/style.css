@@ -899,16 +899,16 @@ section {
   color: #fff;
 }
 
-.contact .php-email-form {
+.contact .royalac-email-form {
   width: 100%;
   background: #fff;
 }
 
-.contact .php-email-form .form-group {
+.contact .royalac-email-form .form-group {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .error-message {
+.contact .royalac-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -917,11 +917,11 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .royalac-email-form .error-message br + br {
   margin-top: 25px;
 }
 
-.contact .php-email-form .sent-message {
+.contact .royalac-email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -930,14 +930,14 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+.contact .royalac-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
+.contact .royalac-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -949,22 +949,22 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input,
-.contact .php-email-form textarea {
+.contact .royalac-email-form input,
+.contact .royalac-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input {
+.contact .royalac-email-form input {
   height: 44px;
 }
 
-.contact .php-email-form textarea {
+.contact .royalac-email-form textarea {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact .royalac-email-form button[type="submit"] {
   background: #fabb0e;
   border: 0;
   padding: 10px 24px;
@@ -973,7 +973,7 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.contact .royalac-email-form button[type="submit"]:hover {
   background: #fc8129;
 }
 
